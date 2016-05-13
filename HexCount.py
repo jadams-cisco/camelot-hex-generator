@@ -38,7 +38,7 @@ def WriteHex():
         else:
             pass
         #Write each line to the file - CSV style
-        file.write(str(FinalUser) + ",SEP" + HexPrefix + "000FFF" + str(HexSuffix) + "," + str(FinalDN) + "\n")
+        file.write(str(FinalUser) + ",SEP" + HexPrefix + "000FFFF" + str(HexSuffix) + "," + str(FinalDN) + "\n")
 
 #Run the WriteHex function
 WriteHex()
